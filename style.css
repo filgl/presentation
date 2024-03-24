@@ -17,6 +17,10 @@ nav {
     z-index: 1;
 }
 
+nav > a {
+    text-decoration: none;
+}
+
 #nav-image {
     display: flex;
     align-items: center;
@@ -38,6 +42,12 @@ nav {
 #nav-image > p {
     font-weight: bold;
     font-style: italic;
+    transition: 0.3s linear;
+}
+
+#nav-image > p:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
 }
 
 #nav-links {
